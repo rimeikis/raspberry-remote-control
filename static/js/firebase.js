@@ -13,9 +13,9 @@ dbRef.on('value', function(snapshot) {
             document.getElementById("humi").innerHTML = child.val() + "%";
         } else if (child.key == "status") {
             if (child.val() == 1) {
-                document.getElementById("status").innerHTML = "Boiler is ON"
+                document.getElementById("status").innerHTML = "Heating is ON"
             } else {
-                document.getElementById("status").innerHTML = "Boiler is OFF"
+                document.getElementById("status").innerHTML = "Heating is OFF"
             }
         }
     });

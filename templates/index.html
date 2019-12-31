@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/config.js') }}"></script>
-
     <script type="text/javascript" src="{{ url_for('static', filename='js/firebase.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/datetime.js') }}"></script>
 
@@ -18,7 +18,7 @@
 
 <body onload=getDateTime();>
     <form action="/switch" method="GET">
-        <h2>Date/Time:</h2>
+        <h2>Date &#38; Time:</h2>
         <p id="date"></p>
         <h2>Temperature:</h2>
         <p id="temp"></p>

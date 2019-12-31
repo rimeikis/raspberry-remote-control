@@ -13,11 +13,11 @@ def controlBoiler():
    result = firebase.get('status', None)
    if result == 1:
       pwm.ChangeDutyCycle(7.5)
-      time.sleep(2)
+      time.sleep(1)
       pwm.stop()
       GPIO.cleanup()
    elif result == 0:
       pwm.ChangeDutyCycle(12.5)
-      time.sleep(2)
+      time.sleep(1)
       pwm.stop()
       GPIO.cleanup()
