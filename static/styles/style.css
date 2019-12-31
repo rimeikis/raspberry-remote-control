@@ -1,0 +1,40 @@
+h2 {
+	text-align: center;
+	background-color: #D0D0D0;
+	margin: 10px;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+p {
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	border: 2px solid #8C8C8C;
+	width: 40%;
+	margin: 0 auto;
+	padding: 0px;
+	font-family: Arial;
+	border-radius: 5px;
+}
+
+.buttonHolder {
+	text-align: center;
+	font-size: 50px;
+}
+
+input[type=submit] {
+	background-color: #636363;
+	border: none;
+	color: white;
+	padding: 12px 28px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
